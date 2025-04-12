@@ -206,3 +206,44 @@ footer.dark-mode {
 .dark-mode-toggle:hover {
   background-color: #3949ab;
 }
+
+.participants-section {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #1a237e;
+}
+
+.participants-section ul {
+  margin: 0;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+.participants-section ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* Dark mode styles for participants section */
+body.dark-mode .participants-section {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+body.dark-mode .participants-section strong {
+  color: #e0e0e0;
+}
+
+body.dark-mode .participants-section ul {
+  color: #ccc;
+}
